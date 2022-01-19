@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: purple;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+    align-items: left;
+}
+
+.content h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    float: left;
+    margin-right: 500px;
+}
+
+.links h1 a{
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links h2 a{
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+}
+
+.about p{
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: white;
+    font-weight: bold;
+}
+
+.sg {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+    align-items: left;
+}
+
+.sg h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+}
+
+.sg p{
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: white;
+    font-weight: bold;
+}
