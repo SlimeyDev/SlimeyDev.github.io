@@ -20,14 +20,43 @@ body {
      color: #AD91FF !important;
      font-weight: bold !important;
  }
+.dropbtn {
+    font-size: 14px !important;
+    background: transparent !important;
+    font-family: Lato, sans-serif !important;
+    text-transform: capitalize !important;
+    padding: 20px !important;
+}
+.dropbtn:hover {
+    background: transparent !important;
+    color: #AD91FF !important;
+    font-weight: bold !important;
+}
 
- .login-btn {
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown {
+    position: relative !important;
+    display: inline-block !important;
+    line-height: 40px !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: #AD91FF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.login-btn {
      border: 2px solid #FF5B38 !important;
      font-size: 10px !important;
- }
- .login-btn:hover {
+}
+.login-btn:hover {
      background: #FF5B38 !important;
- }
+}
 .navbar {
     box-shadow: none !important
 }
@@ -41,8 +70,8 @@ body {
 }
 
 .btn {
-    border-radius: 10px !important;
-    font-size: 16px !important;
+    border-radius: 20px !important;
+    font-size: 20px !important;
     font-weight: 600 !important;
     text-transform: uppercase !important;
 }
@@ -50,16 +79,13 @@ body {
 .btn-primary {
     background-color: #FF5B38!important
 }
+
 .btn-secondary {
     background-color: #2C2F33 !important
 }
 .heading {
-    padding: 160px 50px !important;
+    padding: 50px 40px !important;
     color: #fff !important;
-    /* background-image: url("../assets/wavy-purple-by-nouridio.svg") !important;
-    background-position: bottom !important;
-    background-size: 300% !important;
-    background-repeat: no-repeat !important; */
 }
 
 .title {
@@ -69,8 +95,8 @@ body {
 }
 
 .subtitle {
-    color: rgba(255, 255, 255, 0.685) !important;
-    font-size: 16px !important;
+    color: #fff !important;
+    font-size: 30px !important;
     font-family: 'Lato', sans-serif;
 }
 
