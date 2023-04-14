@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import keep_alive
 from keep_alive import keep_alive
+import os
 
 bot = commands.Bot(command_prefix=".")
 
@@ -16,4 +17,4 @@ async def test(ctx):
     ctx.reply("hi!")
 
 keep_alive()
-bot.run("MTA5NjM5ODAzNzc2MjQ0OTQwOA.GQj0sU.ndPLwRN8LC_qWViFPMmxEWBKfMn3hfdwgUIiZM")
+bot.run(os.getenv("TOKEN"))
