@@ -88,6 +88,11 @@ body {
     color: #fff !important;
 }
 
+.centre {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
 .title {
     line-height: 90px !important;
     margin-bottom: -2px !important;
