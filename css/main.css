@@ -212,3 +212,41 @@ color: rgba(255, 255, 255, 0.46) !important
     background-color: #3D3D69;
     color: #a2a8bd !important
 }
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+table td {
+    border-style:solid;
+    border-width:1px;font-size:20px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+table th {
+    border-style:solid;
+    border-width:1px;
+    font-size:50px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+table td{
+    text-align:left;vertical-align:top
+}
+
+#line {
+    border-radius: 7px 7px 7px 7px;
+    color:white;
+    background-color:white;
+    height:5px;
+}
