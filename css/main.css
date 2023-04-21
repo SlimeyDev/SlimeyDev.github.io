@@ -205,11 +205,10 @@ color: rgba(255, 255, 255, 0.46) !important
     color: #fff !important
 }
 .footer {
-    text-align: center !important;
+    text-align: left !important;
     padding: 5px 6px !important;
     color: #ecf2ff;
     padding: 30px 30px !important;
     background-color: #3D3D69;
-    text-align: center !important;
     color: #a2a8bd !important
 }
