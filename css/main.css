@@ -5,7 +5,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    border-top: 6px #AD91FF solid !important;
+    border-top: 6px #6B228A solid !important;
     font-size: 16px;
 }
 
@@ -58,7 +58,8 @@ body {
      background: #FF5B38 !important;
 }
 .navbar {
-    box-shadow: none !important
+    box-shadow: none !important;
+    background-image: linear-gradient(#6B228A, #131325) !important;
 }
 
 .navbar-brand {
@@ -191,10 +192,10 @@ body {
 .features .card {
     background: #1D1E28;
     border-radius: 22px !important;
-    border: 4px solid #AD91FF;
+    border: 4px solid #fafafa;
 }
 .features .card-text {
-color: rgba(255, 255, 255, 0.46) !important
+color: #fff !important
 }
 
 .features .card-body {
@@ -209,7 +210,7 @@ color: rgba(255, 255, 255, 0.46) !important
     padding: 5px 6px !important;
     color: #ecf2ff;
     padding: 30px 30px !important;
-    background-color: #3D3D69;
+    background-image: linear-gradient(#131325, #6B228A) !important;
     color: #a2a8bd !important
 }
 
