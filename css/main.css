@@ -250,3 +250,7 @@ table td{
     background-color:white;
     height:5px;
 }
+
+#dropdownItem {
+    color:white;
+}
