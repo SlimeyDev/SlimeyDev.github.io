@@ -1,2 +1,3 @@
 # Slimey-website
-# This is a website for my youtube channel called SlimeyDev!
+
+My website about myself and what my youtube channel is about
