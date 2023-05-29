@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif !important;
-    background-color: #131325;
+    background-color: #131325 !important;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
