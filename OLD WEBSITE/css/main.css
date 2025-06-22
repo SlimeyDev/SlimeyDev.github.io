@@ -1,0 +1,228 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #131325 !important;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+}
+
+.nav-link {
+     font-size: 14px !important;
+     background: transparent !important;
+     font-family: Lato, sans-serif !important;
+     text-transform: capitalize !important;
+ }
+ .nav-link:hover {
+     background: transparent !important;
+     color: #AD91FF !important;
+     font-weight: bold !important;
+ }
+.dropbtn {
+    font-size: 14px !important;
+    background: transparent !important;
+    font-family: Lato, sans-serif !important;
+    text-transform: capitalize !important;
+    padding: 20px !important;
+}
+.dropbtn:hover {
+    background: transparent !important;
+    color: #AD91FF !important;
+    font-weight: bold !important;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown {
+    position: relative !important;
+    display: inline-block !important;
+    line-height: 40px !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: #AD91FF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.login-btn {
+     border: 2px solid #FF5B38 !important;
+     font-size: 10px !important;
+}
+.login-btn:hover {
+     background: #FF5B38 !important;
+}
+.navbar {
+    box-shadow: none !important;
+    background-image: linear-gradient(#6B228A, #131325) !important;
+}
+
+.navbar-brand {
+    font-size: 25px !important
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+
+.btn {
+    border-radius: 20px !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-primary {
+    background-color: #FF5B38!important
+}
+
+.btn-secondary {
+    background-color: #2C2F33 !important
+}
+.heading {
+    padding: 50px 40px !important;
+    color: #fff !important;
+}
+
+.centre {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+.title {
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 36px !important
+}
+
+.subtitle {
+    color: #fff !important;
+    font-size: 30px !important;
+    font-family: 'Lato', sans-serif;
+}
+
+.page_end {
+    visibility: show;
+}
+.start {
+    padding: 60px 50px !important;
+    background-color: #1a1a3a;
+}
+
+.start .card {
+    background: transparent !important;
+    color: #f6f9ff !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+.footer {
+    text-align: left !important;
+    padding: 5px 6px !important;
+    padding: 30px 30px !important;
+    background-image: linear-gradient(#131325, #6B228A) !important;
+    color: #a2a8bd !important
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+table td {
+    border-style:solid;
+    border-width:1px;font-size:20px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+table th {
+    border-style:solid;
+    border-width:1px;
+    font-size:50px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+table td{
+    text-align:left;vertical-align:top
+}
+
+#line {
+    border-radius: 7px 7px 7px 7px;
+    color:white;
+    background-color:white;
+    height:5px;
+}
+
+#dropdownItem {
+    color:white;
+}
+
+pre {
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;border-style: solid;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.cards .card {
+  height: auto;
+  width: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all .3s ease-in-out;
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+  background: #1D1E28;
+  border-radius: 22px !important;
+  border: 8px solid #fafafa;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.card:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background-color: rgb(0, 0, 0);
+}
+
+.card .card-content {
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#card-title {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}

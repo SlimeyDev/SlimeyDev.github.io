@@ -1,0 +1,147 @@
+/* APIs Page Specific Styles */
+
+/* APIs Section */
+.apis {
+    padding: 80px 0;
+}
+
+.apis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+.api-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    border: 1px solid var(--card-border);
+}
+
+.api-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.api-header {
+    background: var(--secondary-gradient);
+    color: white;
+    padding: 2rem;
+}
+
+.api-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.api-description {
+    opacity: 0.9;
+    font-size: 1rem;
+}
+
+.api-content {
+    padding: 2rem;
+}
+
+.api-demo h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.code-block {
+    background: #3a3a3a;
+    border: 1px solid #4a4a4a;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+}
+
+.code-block pre {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.code-block code {
+    background: none;
+    padding: 0;
+}
+
+.api-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.api-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 6px;
+    background: transparent;
+}
+
+.api-link:hover {
+    color: white;
+    background: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .apis-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .api-card {
+        margin: 0 1rem;
+    }
+    
+    .api-header {
+        padding: 1.5rem;
+    }
+    
+    .api-content {
+        padding: 1.5rem;
+    }
+    
+    .api-links {
+        flex-direction: column;
+    }
+    
+    .api-link {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .api-header {
+        padding: 1rem;
+    }
+    
+    .api-content {
+        padding: 1rem;
+    }
+    
+    .code-block {
+        padding: 0.75rem;
+    }
+    
+    .code-block pre {
+        font-size: 0.8rem;
+    }
+} 

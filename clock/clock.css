@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background: linear-gradient(270deg, #ff7e5f, #feb47b, #86A8E7, #91EAE4);
+    background-size: 800% 800%;
+    animation: gradientShift 15s ease infinite;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 99.61vh;
+}
+
+#clock {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 10em;
+    color: #000000;
+    text-align: center;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }

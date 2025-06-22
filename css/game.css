@@ -1,0 +1,158 @@
+/* Game Page Specific Styles */
+
+/* Game Page Styles */
+.game-content {
+    padding: 80px 0;
+}
+
+.game-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.game-description, .game-controls, .game-download {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.game-description h2, .game-controls h2, .game-download h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.game-description p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.controls-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.control-item {
+    background: var(--card-bg);
+    border: 2px solid #4a4a4a;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.control-item:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.15);
+}
+
+.control-key {
+    background: var(--accent-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    min-width: 80px;
+    text-align: center;
+}
+
+.control-action {
+    font-weight: 500;
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.download-section {
+    display: flex;
+    justify-content: center;
+}
+
+.download-card {
+    background: var(--card-bg);
+    border: 2px solid #4a4a4a;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 300px;
+    transition: all 0.3s ease;
+}
+
+.download-card:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 123, 255, 0.15);
+}
+
+.download-icon {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.download-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.download-card p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.download-btn {
+    background: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .controls-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .control-item {
+        padding: 1rem;
+    }
+    
+    .download-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .controls-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .game-description h2,
+    .game-controls h2,
+    .game-download h2 {
+        font-size: 1.75rem;
+    }
+} 

@@ -1,0 +1,140 @@
+/* Contact Page Specific Styles */
+
+/* Contact Section */
+.contact {
+    padding: 80px 0;
+}
+
+/* Contact Table Styles */
+.contact-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--card-border);
+}
+
+.contact-table thead {
+    background: var(--primary-gradient);
+}
+
+.contact-table th {
+    padding: 1.5rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.contact-table td {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    vertical-align: middle;
+}
+
+.contact-table tr:last-child td {
+    border-bottom: none;
+}
+
+.contact-table tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transition: background 0.3s ease;
+}
+
+.contact-table td:first-child {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 500;
+}
+
+.contact-table td:first-child i {
+    font-size: 1.2rem;
+    width: 20px;
+    text-align: center;
+}
+
+.contact-table td:nth-child(2) {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-gradient);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
+    background: linear-gradient(135deg, #0056b3, #0088cc);
+}
+
+.contact-action-btn i {
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-table-container {
+        padding: 1rem 0;
+    }
+    
+    .contact-table {
+        font-size: 0.9rem;
+    }
+    
+    .contact-table th,
+    .contact-table td {
+        padding: 1rem 0.75rem;
+    }
+    
+    .contact-table td:first-child {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    
+    .contact-action-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-table {
+        font-size: 0.8rem;
+    }
+    
+    .contact-table th,
+    .contact-table td {
+        padding: 0.75rem 0.5rem;
+    }
+    
+    .contact-table th {
+        font-size: 1rem;
+    }
+    
+    .contact-action-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+    }
+} 

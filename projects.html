@@ -2,159 +2,343 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/now-ui-kit.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/slimeydev.jpg">
-    <title>SlimeyDev - projects</title>
-
-    <!---- meta tags--->
-    <meta name="theme-color" content="#2B79C2">
-    <meta content="SlimeyDev" property="og:title">
-    <meta name="title" content="SlimeyDev">
-    <meta name="description" content="This is a website made by a youtuber called SlimeyDev!">
-    <meta content="Welcome to the SlimeyDev's website!" property="og:description">
-    <meta name="og:site_name" content="SlimeyDev">
-    <meta name="keywords" content="coding, Nesar, SlimeyDev, gaming">
-    <meta name="robots" content="index, follow">
-    <meta property="og:image" content="https://i.ibb.co/gmJRsVZ/slimeydev.jpg">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesar's EPIC projects</title>
+    <link rel="icon" type="image/jpeg" href="assets/slimeydev.jpg">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-transparent">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
-    </button>
-    <img src="assets/slimeydev.jpg" width="50" height="50">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contacts.html">Contacts</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="games.html">Games</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.youtube.com/@SlimeyDev/videos">Videos</a>
-            </li>
-            <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Apps
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="apps/encryptor.html" id="dropdownItem">encryptor</a>
-                    <a class="dropdown-item" href="apps/decryptor.html" id="dropdownItem">decryptor</a>
-                    <a class="dropdown-item" href="apps/sysinfo.html" id="dropdownItem">sysinfo</a>
-                    <a class="dropdown-item" href="apps/password_generator.html" id="dropdownItem">password generator</a>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Nesar's EPIC website</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="apis.html" class="nav-link">APIs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Hit me up</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div>
+                    <h1 class="page-title">My EPIC Projects</h1>
+                    <p class="page-subtitle">A collection of my absolutely EPIC projects! Feel free to reuse any of them.</p>
                 </div>
             </div>
-            <li class="nav-item">
-                <a class="nav-link" href="projects.html">projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="SlimeyBOT.html">discord bot</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="spellGPT.html">SpellGPT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="APIs.html">APIs</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://status-i9x9.onrender.com/">Server Status</a>
-            </li>
-        </ul>
-</nav>
-<div class="heading">
-    <div class="centre">
-    <h1 class="display-1">My projects:</h1>
-    <h2 class="display-4">(click on the project title to see the project)</h2>
-    </div>
-</div>
-<div class="cards">
-    <div class="card">
-        <h1><a href="APIs.html">APIs</a></h1>
-        <p>
-            APIs I made for many purposes like for retrieving weather data and random symbol generator!
-        </p>
-    </div>
-    <div class="card">
-        <h1><a href="spellGPT.html">SpellGPT</a></h1>
-        <p>
-            An AI based text modifier that allows you to use AI to change the tone of your text and correct spelling and grammer!
-        </p>
-    </div>
-    <div class="card">
-        <h1><a href="https://www.youtube.com/watch?v=fZ6qab_sgYE">App in 7 days</a></h1>
-           <p>
-            An app that I created in 7 days! I sadly had to stop its development as my computer was not able to run android studio properly.
-            <br/>
-            <img src="assets\app in 1 week thumbnail.jpg" height="250">
-        </p>
-    </div>
-    <div class="card">
-        <h1 class="card-title"><a href="SlimeyBOT.html">Discord Bot</a></h1>
-        <p>
-            This is a discord bot that has many features like moderation, fun commands and ai communication features!
-            <br/>
-            <img src=assets/SlimeyBOT.png>
-        </p>
-    </div>
-    <div class="card">
-        <h1><a href="bloxy-blox.html">BloxyBlox</a></h1>
-        <p>
-            This is a small game that i made using C# and Unity!
-            <br/>
-            <img src="assets/Bloxy_Blox_icon.png" height="250">
-            </p>
-    </div>
-    <div class="card">
-            <h1><a href="https://www.youtube.com/watch?v=rjOKpxkgprA">Automatic parking system</a></h1>
-            <p class="card-text">
-                A big project I made over a period of 1 months!
-                <br/>
-                <img src="assets/automatic parking system thumbnail.jpg" height="250">
-            </p>
-    </div>
-    <div class="card">
-        <h1><a href="https://www.youtube.com/watch?v=62ZqA-P2B5c">Robot</a></h1>
-        <p>
-            A rovor looking robot I made to learn more about arduinos and electronics!
-            <br/>
-            <img src="assets/making a robot - thumbnail.png" height="250">
-        </p>
-    </div>
-    <div class="card">
-        <h1><a href="https://www.youtube.com/watch?v=2kqCiiNjqtE">shooting game</a></h1>
-        <p>
-            A shooting game that im working on!
-            <br/>
-            <img src="assets/shooting game.jpg" height="250">
-        </p>
-    </div>
-    <div class="card">
-        <h1><a href="https://github.com/SlimeyDev/plane-firmware">RC plane</a></h1>
-        <p>
-            A fully custom arduino based rc plane that I am working on with a friend.
-        </p>
-    </div>
-</div>
-<div class="footer">
-    <img src="https://i.ibb.co/gmJRsVZ/slimeydev.jpg" width="50px" height="50px">
-    &nbsp&nbsp
-    Copyright © SlimeyDev - 2021 - 2023 &nbsp&nbsp&nbsp&nbsp<a href="https://www.youtube.com/channel/UCH-QFhiX-G8FFjQp8oL9_2A" style="color: #a2a8bd;"><i class="bi bi-youtube"></i>&nbsp Youtube</a> &nbsp&nbsp&nbsp&nbsp <a href="https://github.com/SlimeyDev" style="color: #a2a8bd;"><i class="bi bi-github"></i>&nbsp GitHub</a>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="js/now-ui-kit.min.js"></script>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <div class="early-days-section">
+                    <h2 class="section-title">The Early Days of My Game Development Journey</h2>
+                    <div class="early-days-content">
+                        <div class="early-days-text">
+                            <p>My first lines of code where written in Scratch. I used to code fun games when i was 11 years old during online classes(2020 - 2021). Simple times fr 😔🤚</p>
+                        </div>
+                        <div class="early-days-projects">
+                            <div class="early-days-links">
+                                <a href="https://scratch.mit.edu/users/Epic_Scratcher101011/" class="early-days-link" target="_blank">
+                                    <i class="fas fa-code"></i>
+                                    View My Scratch Profile
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Calculator</h3>
+                            <p class="project-description">
+                                A fully functional calculator built with HTML, CSS, and JavaScript. Features a clean interface with basic arithmetic operations and a responsive design.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="calculator/calc.html" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Try it out
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Clock</h3>
+                            <p class="project-description">
+                                A really simple clock I made while learning JavaScript. Displays the current time with a clean interface.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="clock/clock.html" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Try it out
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fab fa-discord"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Discord Bot</h3>
+                            <p class="project-description">
+                                A feature-rich Discord bot built with Python and the Discord API. 
+                                Provides various utilities and interactive features for Discord servers.
+                                At its peak, it was in 30 servers with over 1000 users in total.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Discord API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/SlimeyDev/Slimey-bot" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Instagram Repost Bot</h3>
+                            <p class="project-description">
+                                A program that automates an instagram meme repost account.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Instagram API</span>
+                                <span class="tech-tag">Automation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/SlimeyDev/automatic-ig-repost-page" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-spell-check"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">SpellGPT</h3>
+                            <p class="project-description">
+                                A ChatGPT wrapper that transforms text to different tones and corrects grammar and spelling. 
+                                Enhances writing quality through AI-powered text processing.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">ChatGPT API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/SlimeyDev/SpellGPT" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Obstacle Avoiding Robot</h3>
+                            <p class="project-description">
+                                An autonomous robot that uses sensors to detect and avoid obstacles in its path. 
+                                Built with Arduino and C++ for real-time navigation.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">Sensors</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/SlimeyDev/robot" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                                <a href="https://www.youtube.com/watch?v=62ZqA-P2B5c" class="project-link" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                    Video Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-car"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Automatic Parking System</h3>
+                            <p class="project-description">
+                                A cool project that manages a parking building using sensors and stuff.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">Automation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://www.youtube.com/watch?v=rjOKpxkgprA" class="project-link" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                    Video Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">RC Plane</h3>
+                            <p class="project-description">
+                                A remote-controlled aircraft with custom firmware for flight control. 
+                                Using NRF24 modules for wireless communications and Arduino for the flight computer.
+                                But sadly the plane did not fly 😔😭
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">NRF24</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/SlimeyDev/plane-firmware" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">APIs Collection</h3>
+                            <p class="project-description">
+                                Some APIs I made for fun to learn how APIs work.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Web APIs</span>
+                                <span class="tech-tag">Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/SlimeyDev/APIs" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                                <a href="apis.html" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View APIs
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Bloxy Blox</h3>
+                            <p class="project-description">
+                                A fun game built with Unity and C#. Features engaging gameplay mechanics and smooth controls.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">Unity</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="bloxy-blox.html" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Play Game
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SlimeyDev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 

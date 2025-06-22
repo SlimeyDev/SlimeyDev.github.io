@@ -2,104 +2,141 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/now-ui-kit.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/slimeydev.jpg">
-    <title>SlimeyDev - APIs</title>
-
-    <!---- meta tags--->
-    <meta name="theme-color" content="#2B79C2">
-    <meta content="SlimeyDev" property="og:title">
-    <meta name="title" content="SlimeyDev">
-    <meta name="description" content="APIs created by SlimeyDev!">
-    <meta content="Welcome to the SlimeyDev's website!" property="og:description">
-    <meta name="og:site_name" content="SlimeyDev">
-    <meta name="keywords" content="coding, Nesar, SlimeyDev, gaming, weather, API, weatherAPI, FreeAPI, free">
-    <meta name="robots" content="index, follow">
-    <meta property="og:image" content="https://i.ibb.co/gmJRsVZ/slimeydev.jpg">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesar's EPIC APIs</title>
+    <link rel="icon" type="image/jpeg" href="assets/slimeydev.jpg">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/apis.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-transparent">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
-    </button>
-    <img src="assets/slimeydev.jpg" width="50" height="50">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contacts.html">Contacts</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="games.html">Games</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.youtube.com/@SlimeyDev/videos">Videos</a>
-            </li>
-            <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Apps
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="apps/encryptor.html" id="dropdownItem">encryptor</a>
-                    <a class="dropdown-item" href="apps/decryptor.html" id="dropdownItem">decryptor</a>
-                    <a class="dropdown-item" href="apps/sysinfo.html" id="dropdownItem">sysinfo</a>
-                    <a class="dropdown-item" href="apps/password_generator.html" id="dropdownItem">password generator</a>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Nesar's EPIC website</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="apis.html" class="nav-link active">APIs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Hit me up</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div>
+                    <h1 class="page-title">SlimeyAPI</h1>
+                    <p class="page-subtitle">Some fun APIs I made for fun<br>⚠️Beware these APIs are not for production use, they are not online 24/7!</p>
                 </div>
             </div>
-            <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="SlimeyBOT.html">Discord Bot</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="spellGPT.html">SpellGPT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="APIs.html">APIs</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://status-i9x9.onrender.com/">Server Status</a>
-            </li>
-        </ul>
-</nav>
-<div class="heading">
-    <div class="centre">
-        <h1 class="display-1">SlimeyAPI</h1>
-    </div>
-    <br/>
-    <h2 class="display-4">Random Symbol API</h2>
-    <p class="subtitle">An API for randomly generated Symbols.</p>
-    <br/>
-    <a href="https://github.com/SlimeyDev/APIs"><button class="btn btn-primary">Source Code</button></a>
-    <a href="https://slimeyapi.onrender.com/random"><button class="btn btn-success">Try it out</button></a>
-    <a href="docs/randomSymbolAPI.html"><button class="btn">Docs</button></a>
-    <hr id="line"/>
-    <h2 class="display-4">Weather API</h2>
-    <p class="subtitle">An API for retrieving weather data.</p>
-    <br/>
-    <a href="https://github.com/SlimeyDev/APIs"><button class="btn btn-primary">Source Code</button></a>
-    <a href="https://slimeyapi.onrender.com/weather?place=India"><button class="btn btn-success">Try it out</button></a>
-    <a href="docs/weatherAPI.html"><button class="btn">Docs</button></a>
-</div>
-<div class="footer">
-    <img src="https://i.ibb.co/gmJRsVZ/slimeydev.jpg" width="50px" height="50px">
-    &nbsp&nbsp
-    Copyright © SlimeyDev - 2021 - 2023 &nbsp&nbsp&nbsp&nbsp<a href="https://www.youtube.com/channel/UCH-QFhiX-G8FFjQp8oL9_2A" style="color: #a2a8bd;"><i class="bi bi-youtube"></i>&nbsp Youtube</a> &nbsp&nbsp&nbsp&nbsp <a href="https://github.com/SlimeyDev" style="color: #a2a8bd;"><i class="bi bi-github"></i>&nbsp GitHub</a>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="js/now-ui-kit.min.js"></script>
+        </section>
+
+        <section class="apis">
+            <div class="container">
+                <div class="apis-grid">
+                    <article class="api-card">
+                        <div class="api-header">
+                            <h3 class="api-title">Random Symbol API</h3>
+                            <p class="api-description">An API for randomly generated symbols.</p>
+                        </div>
+                        <div class="api-content">
+                            <div class="api-demo">
+                                <h4>Endpoint:</h4>
+                                <div class="code-block">
+                                    <pre><code>GET https://slimeyapi.onrender.com/random</code></pre>
+                                </div>
+                                <h4>Example Response:</h4>
+                                <div class="code-block">
+                                    <pre><code>{
+  "symbol": "]"
+}</code></pre>
+                                </div>
+                                <h4>Supported Symbols:</h4>
+                                <div class="code-block">
+                                    <pre><code>abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ`~!@#$%^&*()_+-=[]\;',./{}|:"<>?</code></pre>
+                                </div>
+                            </div>
+                            <div class="api-links">
+                                <a href="https://github.com/SlimeyDev/APIs" class="api-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                                <a href="https://slimeyapi.onrender.com/random" class="api-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Try it out
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="api-card">
+                        <div class="api-header">
+                            <h3 class="api-title">Weather API</h3>
+                            <p class="api-description">An API for retrieving weather data.</p>
+                        </div>
+                        <div class="api-content">
+                            <div class="api-demo">
+                                <h4>Endpoint:</h4>
+                                <div class="code-block">
+                                    <pre><code>GET https://slimeyapi.onrender.com/weather?place={place}</code></pre>
+                                </div>
+                                <h4>Parameters:</h4>
+                                <div class="code-block">
+                                    <pre><code>place (required): The location for weather information
+Example: place=New York</code></pre>
+                                </div>
+                                <h4>Example Response:</h4>
+                                <div class="code-block">
+                                    <pre><code>{
+  "temperature": 18.5,
+  "pressure_mb": 1013.25,
+  "wind_degree": 180,
+  "wind_speed": 5.2,
+  "feels_like": 17.8,
+  "last_updated": "2024-01-15T10:30:00Z"
+}</code></pre>
+                                </div>
+                            </div>
+                            <div class="api-links">
+                                <a href="https://github.com/SlimeyDev/APIs" class="api-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Source Code
+                                </a>
+                                <a href="https://slimeyapi.onrender.com/weather?place=India" class="api-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Try it out
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SlimeyDev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
