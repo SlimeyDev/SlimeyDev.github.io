@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word & Character Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word & Character Counter</h1>
+
+        <div class="input-section">
+            <textarea id="textInput" placeholder="Start typing your text here..."></textarea>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-card">
+                <span class="stat-number" id="characterCount">0</span>
+                <span class="stat-label">Characters</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="wordCount">0</span>
+                <span class="stat-label">Words</span>
+            </div>
+        </div>
+        
+        <div class="additional-stats">
+            <div class="mini-stat">
+                <span class="number" id="charNoSpaces">0</span>
+                <span class="label">Chars (no spaces)</span>
+            </div>
+            <div class="mini-stat">
+                <span class="number" id="paragraphCount">0</span>
+                <span class="label">Paragraphs</span>
+            </div>
+            <div class="mini-stat">
+                <span class="number" id="sentenceCount">0</span>
+                <span class="label">Sentences</span>
+            </div>
+            <div class="mini-stat">
+                <span class="number" id="readingTime">0</span>
+                <span class="label">Min to read (200WPM)</span>
+            </div>
+        </div>
+        
+        <button class="clear-btn" onclick="clearText()">Clear Text</button>
+
+        <br>
+        <p>Made with 🩷 by Nesar :)</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

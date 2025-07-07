@@ -404,7 +404,7 @@
 }
 
 .project-image {
-    height: 120px;
+    height: 180px;
     background: var(--secondary-gradient);
     display: flex;
     align-items: center;
