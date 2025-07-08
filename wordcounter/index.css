@@ -131,6 +131,7 @@ p {
 @media (max-width: 480px) {
     .container {
         padding: 20px;
+        background-image: linear-gradient(to bottom right, rgb(197, 71, 255), rgb(189, 0, 203));
     }
     
     h1 {
